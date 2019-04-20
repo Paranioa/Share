@@ -1,0 +1,10 @@
+[
+  {
+    "enable": true,
+    "id": 38,
+    "regex": "(http://)?([a-zA-Z]+\\.)+[a-zA-Z]+|(https?\\:)?(//)?[WwｗＷ]{1,3}.*",
+    "replaceSummary": "去网址",
+    "replacement": "",
+    "serialNumber": 46
+  }
+]
