@@ -52,3 +52,4 @@ N个书源(长期更新)：<https://raw.githubusercontent.com/CNAD666/MyData/mas
 
 **乌云更新书源+rule**：<https://www.lanzous.com/b662803>
 
+**薅白魔人-书源+规则** <https://www.lanzous.com/b768502
