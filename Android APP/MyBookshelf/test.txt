@@ -27,5 +27,5 @@
     "ruleSearchUrl": "https://www.qidian.com/search?kw=searchKey&page=searchPage",
     "serialNumber": 0,
     "weight": 30
-  },
+  }
 ]
