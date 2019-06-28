@@ -32,6 +32,15 @@ N个书源(长期更新)：<https://raw.githubusercontent.com/CNAD666/MyData/mas
 
 **1101个书源链接**: <https://pan.baidu.com/s/1iRnp8vCd3wX0cRALomu5aw#9ojq>（感谢书友**Nightring**收集分享）
 
+ *2019-06-20*
+
+**群友分享书源（直接网络导入）**
+
+https://gedoor.github.io/MyBookshelf/bookSource.json
+https://bookSources.github.io
+
+此网站包含多个分类书源,打开链接找自己需要的
+https://moonbegonia.github.io/Source/
 
 
 ### 净化规则
