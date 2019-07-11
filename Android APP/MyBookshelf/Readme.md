@@ -4,7 +4,7 @@ Github：<https://github.com/gedoor/MyBookshelf/releases>
 
 
 
-### 书源
+## 书源
 
 Github(不可直接使用)：<https://github.com/CNAD666/MyData/tree/master/novel/bookshelf>
 
@@ -30,7 +30,9 @@ N个书源(长期更新)：<https://raw.githubusercontent.com/CNAD666/MyData/mas
 
 **群友分享书源**：<https://gedoor.github.io/MyBookshelf/bookSource.json>
 
-**1101个书源链接**: <https://pan.baidu.com/s/1iRnp8vCd3wX0cRALomu5aw#9ojq>（感谢书友**Nightring**收集分享）
+~~**1101个书源链接**: <https://pan.baidu.com/s/1iRnp8vCd3wX0cRALomu5aw#9ojq>（感谢书友**Nightring**收集分享）~~
+
+
 
  *2019-06-20*
 
@@ -43,7 +45,9 @@ https://bookSources.github.io
 https://moonbegonia.github.io/Source/
 
 
-### 净化规则
+
+
+## 净化规则
 
 净化规则: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/Rule.txt >
 
@@ -57,8 +61,11 @@ https://moonbegonia.github.io/Source/
 
 <http://zxkzxkzxk00.gitee.io/627262/replace3>
 
-
+## 长期更新地址：
 
 **乌云更新书源+rule**：<https://www.lanzous.com/b662803>
 
-**薅白魔人-书源+规则** <https://www.lanzous.com/b768502
+**薅白魔人-书源+规则**： https://www.lanzous.com/b768502
+
+**官方给的一个地址**：https://moonbegonia.github.io/Source/
+
