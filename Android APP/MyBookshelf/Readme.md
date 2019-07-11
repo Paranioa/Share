@@ -20,9 +20,9 @@ N个书源(长期更新)：<https://raw.githubusercontent.com/CNAD666/MyData/mas
 
 900+书源: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/915.json>
 
-400+书源: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/425.json >
+400+书源: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/425.json>
 
-100+书源: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/WxSource.json >
+100+书源: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/WxSource.json>
 
 
 
@@ -49,9 +49,9 @@ https://moonbegonia.github.io/Source/
 
 ## 净化规则
 
-净化规则: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/Rule.txt >
+净化规则: <https://gitlab.com/GJTQQ/YueDu/raw/master/Share/Rule.txt>
 
-相关链接：< http://www.iapps.me/archives/1004>
+相关链接：<http://www.iapps.me/archives/1004>
 
 2019.03.17 (官方更新)
 
@@ -68,4 +68,6 @@ https://moonbegonia.github.io/Source/
 **薅白魔人-书源+规则**： https://www.lanzous.com/b768502
 
 **官方给的一个地址**：https://moonbegonia.github.io/Source/
+
+**异次元APP发布地址发现的**：https://pan.baidu.com/s/18_xEyJbEZONDB4gCwPKcYg#2019
 
