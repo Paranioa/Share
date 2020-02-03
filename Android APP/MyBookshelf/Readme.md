@@ -2,6 +2,11 @@ Github：<https://github.com/gedoor/MyBookshelf/releases>
 
 离线转txt APP: <https://github.com/zsakvo/YueduAssistant/releases>
 
+## 在线书库
+
+http://ku.iszoc.com/
+
+http://ku.mumuceo.com/
 
 
 ## 书源
