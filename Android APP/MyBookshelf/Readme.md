@@ -1,5 +1,7 @@
 Github：<https://github.com/gedoor/MyBookshelf/releases>
 
+魔改版: https://github.com/Invinciblelee/MyBookshelf-master/releases
+
 离线转txt APP: <https://github.com/zsakvo/YueduAssistant/releases>
 
 
@@ -44,7 +46,9 @@ https://bookSources.github.io
 此网站包含多个分类书源,打开链接找自己需要的
 https://moonbegonia.github.io/Source/
 
+#### 魔改書源
 
+~~http://bmob-cdn-20686.b0.upaiyun.com/2019/05/21/73e2b5da4070d211806ba4e10052dcc1.json~~
 
 
 ## 净化规则
@@ -69,5 +73,5 @@ https://moonbegonia.github.io/Source/
 
 **官方给的一个地址**：https://moonbegonia.github.io/Source/
 
-**异次元APP发布地址发现的**：https://pan.baidu.com/s/18_xEyJbEZONDB4gCwPKcYg#2019
+~~**异次元APP发布地址发现的**：https://pan.baidu.com/s/18_xEyJbEZONDB4gCwPKcYg#2019~~
 
