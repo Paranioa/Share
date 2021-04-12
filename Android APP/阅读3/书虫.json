@@ -1,0 +1,51 @@
+ 
+{
+    "bookSourceComment": "xpath,cover,好像是抓的斋书苑的内容",
+    "bookSourceGroup": "",
+    "bookSourceName": "书虫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https:\/\/www.shuchong.info",
+    "bookUrlPattern": "https:\/\/www.shuchong.info\/book\/\\d+.html",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 1608212996215,
+    "ruleBookInfo": {
+        "author": "\/\/*[@property=\"og:novel:author\"]\/@content",
+        "coverUrl": "\/\/*[@property=\"og:image\"]\/@content",
+        "intro": "\/\/*[@class=\"book-dec\"]##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "\/\/*[@property=\"og:novel:category\"]\/@content\n&&\n\/\/*[@property=\"og:novel:status\"]\/@content##中|已",
+        "lastChapter": "\/\/*[@property=\"og:novel:latest_chapter_name\"]\/@content&&\n\/\/*[@property=\"og:novel:update_time\"]\/@content\n<js>\nvar n = result.replace(\/\\n.*\/, '');\nvar t = result.match(\/(\\d+-\\d+)\/)[1];\nn + '▪' + t\n<\/js>",
+        "name": "\/\/*[@property=\"og:novel:book_name\"]\/@content",
+        "tocUrl": "\/\/*[@property=\"og:novel:read_url\"]\/@content",
+        "wordCount": "\/\/*[@class=\"nums\"]\/span[1]\/i\/text()"
+    },
+    "ruleContent": {
+        "content": "<js>\na=org.jsoup.Jsoup.parse(String(result).match(\/id=\"content\".*?>([\\s\\S]*?)<\\\/div>\\s*<\\\/div>\/)[1]).html();\n\/\/取屏蔽段落\nvar content=String(result.match(\/function\\s*getDecode\\(\\)\\{(.*)\\}\/)[1]);\n\/\/还原屏蔽段落\ncontent=content.replace(\/\\\\\/g,\"\/\")\n.replace(\/[A-Z]=~.*?\\('\/g,\"\")\n.replace(\/#.*?\\('\/g,\"\")\n.replace(\/'\\).*\/g,\"\")\n.replace(\/\\+|\"\/g,\"\")\n.replace(\/[A-Z]\\.\\$__\\$\/g,\"9\")\n.replace(\/[A-Z]\\.\\$___\/g,\"8\")\n.replace(\/[A-Z]\\.\\$\\$\\$\/g,\"7\")\n.replace(\/[A-Z]\\.\\$\\$_\/g,\"6\")\n.replace(\/[A-Z]\\.\\$_\\$\/g,\"5\")\n.replace(\/[A-Z]\\.\\$__\/g,\"4\")\n.replace(\/[A-Z]\\._\\$\\$\/g,\"3\")\n.replace(\/[A-Z]\\._\\$_\/g,\"2\")\n.replace(\/[A-Z]\\.__\\$\/g,\"1\")\n.replace(\/[A-Z]\\.___\/g,\"0\")\n.replace(\/\\\/\\\/74\\\/{2,3}160\\\/\\\/76\/g,\"\\n\")\n\/\/大写字母\n.replace(\/\\\/\\\/132\/g,\"Z\")\n.replace(\/\\\/\\\/131\/g,\"Y\")\n.replace(\/\\\/\\\/130\/g,\"X\")\n.replace(\/\\\/\\\/127\/g,\"W\")\n.replace(\/\\\/\\\/126\/g,\"V\")\n.replace(\/\\\/\\\/125\/g,\"U\")\n.replace(\/\\\/\\\/124\/g,\"T\")\n.replace(\/\\\/\\\/123\/g,\"S\")\n.replace(\/\\\/\\\/122\/g,\"R\")\n.replace(\/\\\/\\\/121\/g,\"Q\")\n.replace(\/\\\/\\\/120\/g,\"P\")\n.replace(\/\\\/\\\/117\/g,\"O\")\n.replace(\/\\\/\\\/116\/g,\"N\")\n.replace(\/\\\/\\\/115\/g,\"M\")\n.replace(\/\\\/\\\/114\/g,\"L\")\n.replace(\/\\\/\\\/113\/g,\"K\")\n.replace(\/\\\/\\\/112\/g,\"J\")\n.replace(\/\\\/\\\/111\/g,\"I\")\n.replace(\/\\\/\\\/110\/g,\"H\")\n.replace(\/\\\/\\\/107\/g,\"G\")\n.replace(\/\\\/\\\/106\/g,\"F\")\n.replace(\/\\\/\\\/105\/g,\"E\")\n.replace(\/\\\/\\\/104\/g,\"D\")\n.replace(\/\\\/\\\/103\/g,\"C\")\n.replace(\/\\\/\\\/102\/g,\"B\")\n.replace(\/\\\/\\\/101\/g,\"A\")\n.replace(\/\\\/\\\/100\/g,\"@\")\n\/\/小写字母\n.replace(\/5\\_​\/g,\"a\")\n.replace(\/5\\$\/g,\"b\")\n.replace(\/6\\_​\/g,\"c\")\n.replace(\/6\\$\/g,\"d\")\n.replace(\/7\\_​\/g,\"e\")\n.replace(\/7\\$\/g,\"f\")\n.replace(\/\\\/\\\/147\/g,\"g\")\n.replace(\/\\\/\\\/150\/g,\"h\")\n.replace(\/\\\/\\\/151\/g,\"i\")\n.replace(\/\\\/\\\/152\/g,\"j\")\n.replace(\/\\\/\\\/153\/g,\"k\")\n.replace(\/\\(\\!\\[\\]\\)\\[2\\]\/g,\"l\")\n.replace(\/\\\/\\\/155\/g,\"m\")\n.replace(\/\\\/\\\/156\/g,\"n\")\n.replace(\/[A-Z]\\._\\$\/g,\"o\")\n.replace(\/\\\/\\\/160\/g,\"p\")\n.replace(\/\\\/\\\/161\/g,\"q\")\n.replace(\/\\\/\\\/162\/g,\"r\")\n.replace(\/\\\/\\\/163\/g,\"s\")\n.replace(\/[A-Z].__\/g,\"t\")\n.replace(\/[A-Z]._\/g,\"u\")\n.replace(\/\\\/\\\/166\/g,\"v\")\n.replace(\/\\\/\\\/167\/g,\"w\")\n.replace(\/\\\/\\\/170\/g,\"x\")\n.replace(\/\\\/\\\/171\/g,\"y\")\n.replace(\/\\\/\\\/172\/g,\"z\")\n\/\/英文符号\n.replace(\/\\\/\\\/72\/g,\":\")\n.replace(\/\\\/\\\/73\/g,\" \")\n.replace(\/\\\/\\\/77\/g,\"?\")\n.replace(\/\\\/\\\/\\\/\\\/u(.{4})\/g,\"%u$1\");\n密文=unescape(content)\n\/\/放回原位\nresult=String(a);\nresult=result.replace(\/防采集.*阅读模式！\/,密文)\n\/\/分隔符\n.replace(\/禁止转码.*阅读模式！\/g,\"\")\n<\/js>",
+        "imageStyle": "",
+        "replaceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "\/\/span[5]\/text()",
+        "bookList": "\/\/*[@class=\"main_con\"]\/li",
+        "bookUrl": "\/\/span[2]\/a[1]\/@href",
+        "coverUrl": "\/\/span[2]\/a[1]\/@href\n@js:id=result.match(\/(\\d+)\/)[1];\np=Math.round(id\/5)-12;\nresult='https:\/\/www.shuchong.info\/static\/upload\/'+p+'.'+id+'.jpg'",
+        "intro": "",
+        "kind": "\/\/span[1]\/text()##\\[|\\]",
+        "lastChapter": "\/\/span[2]\/a[2]\/text()&&\/\/span[6]\/text()\n<js>\nvar n = result.replace(\/\\n.*\/, '');\nvar t = result.match(\/(\\d+-\\d+)\/)[1];\nn + '▪' + t\n<\/js>",
+        "name": "\/\/span[2]\/a[1]\/\/text()",
+        "wordCount": "\/\/span[4]\/text()"
+    },
+    "ruleToc": {
+        "chapterList": "+@js:doc = org.jsoup.Jsoup.parse(result);\nhtml = \"\";\nif (result.match(\/data-id=\"(\\d+)\"\/)) {\n\tnum = result.match(\/查看隐藏章节\\((\\d+)\\)\/)[1];\n\tp = parseInt(num\/900);\n\tfor (var j = 1; j <= p + 1; j++) {\n\t\tbid = result.match(\/data-bid=\"(\\d+)\"\/)[1];\n\t\tpage = j;\n\t\turl = \"https:\/\/www.shuchong.info\/api\/\";\n\t\tbody = \"action=list&bid=\" + bid + \"&page=\" + page;\n\t\toption = {\n\t\t\t\"method\": \"POST\",\n\t\t\t\"body\": String(body)\n\t\t}\n\t\tjson = JSON.parse(java.ajax(url + \",\" + JSON.stringify(option))).data;\n\t\tfor (var i = 0; i < json.length; i++) {\n\t\t\thtml += '<li><a href=\"\/chapter\/' + bid + '\/' + (json[i].id - bid) + '\" target=\"_blank\">' + json[i].cN + '<\/a> ' + json[i].uT + '<\/li>'\n\t\t}\n\t}\n\tdoc.select(\"#more-chapter\").before(html).remove()\n}\ndoc.select(\".chapter-list li\")",
+        "chapterName": "tag.span@text||tag.a@text",
+        "chapterUrl": "tag.a.0@href",
+        "nextTocUrl": "",
+        "updateTime": "##<\/a> ([^<]+)<\/li>##$1###"
+    },
+    "searchUrl": "\/search\/,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"key={{key}}\"\n}",
+    "weight": 0
+}
