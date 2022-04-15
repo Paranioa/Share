@@ -6,5 +6,7 @@ www.dayanzai.me##li:has(a>img[src="http://www.dayanzai.me/image/ad/dayanzaifans.
 www.dayanzai.me##li:has-text(向日葵精英版兑换码)
 www.dayanzai.me##li:has-text(linux就该这么学)
 
+! 果壳剥壳
+www.ghxi.com##.modules-tjnr
 www.ghxi.com##.modules-carousel-posts
 www.ghxi.com##li:has-text(活动)
