@@ -19,3 +19,6 @@ bbs.pcbeta.com##div[style="width:998px;height:75px;border:1px solid #ececec;bord
 bbs.pcbeta.com###wp>div:not(.cl):not([style]):not(.wp):not(#diynavtop)
 !--搜索框下方板块信息
 bbs.pcbeta.com##[style='padding\3A 0\ 15px\;background\3A \#fafafa\;border\3A 1px\ solid\ \#ececec\;']
+
+bbs.pcbeta.com##.x_m.pb_tan:upward(1)
+bbs.pcbeta.com##[class^="_jc"]:upward(4)
