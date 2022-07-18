@@ -11,3 +11,11 @@ www.dayanzai.me##li:has-text(linux就该这么学)
 www.ghxi.com##.modules-tjnr
 www.ghxi.com##.modules-carousel-posts
 www.ghxi.com##li:has-text(活动)
+
+!--远景论坛
+!--搜索框上方板块
+bbs.pcbeta.com##div[style="width:998px;height:75px;border:1px solid #ececec;border-top:3px solid #009ad9;margin:0 0 10px 0;background:#fff;"]
+!--搜索框上方推荐新闻
+bbs.pcbeta.com###wp>div:not(.cl):not([style]):not(.wp):not(#diynavtop)
+!--搜索框下方板块信息
+bbs.pcbeta.com##[style='padding\3A 0\ 15px\;background\3A \#fafafa\;border\3A 1px\ solid\ \#ececec\;']
