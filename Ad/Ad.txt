@@ -1,6 +1,9 @@
 ! 2021-10-13 https://www.423down.com
 www.423down.com##li:has-text(优惠推荐)
 www.423down.com##li:has-text(金牌电脑管家)
+www.423down.com##li:has-text(海猫小说)
+www.423down.com##li:has-text(黑洞小说)
+
 
 ! 2021-10-14 https://www.dayanzai.me
 www.dayanzai.me##li:has(a>img[src="http://www.dayanzai.me/image/ad/dayanzaifans.png"])
