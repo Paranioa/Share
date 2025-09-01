@@ -1,6 +1,6 @@
 ! 2021-10-13 https://www.423down.com
 www.423down.com##li:has-text(产品推荐)
-
+www.423down.com##li:has-text(产品推广)
 
 ! 2021-10-14 https://www.dayanzai.me
 www.dayanzai.me##li:has(a>img[src="http://www.dayanzai.me/image/ad/dayanzaifans.png"])
